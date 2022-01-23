@@ -2,3 +2,5 @@
 /main
 /test
 testing/
+*.dat
+*.exe
