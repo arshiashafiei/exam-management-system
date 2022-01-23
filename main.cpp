@@ -733,7 +733,6 @@ bool already_taken_exam(const user &student, const string &exam_id)
     for (int i = 0; i < size; i++) {
         fread_points >> username >> points;
         if (username == student.username) {
-            cout << points << " / " << num_of_questions << '\n';
             fread_points.close();
             return true;
         }   
